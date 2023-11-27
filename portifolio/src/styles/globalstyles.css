@@ -1,0 +1,27 @@
+@import url(reset.css);
+@import url(main.css);
+@import url(./header.css);
+@import url(BannerSection.css);
+@import url(AboutMe.css);
+@import url(TechSection.css);
+@import url(ProjectSection.css);
+@import url(footer.css);
+
+.Title{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.Text{
+    color: var(--white, #FFF);
+
+    /* Paragraph */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+    }

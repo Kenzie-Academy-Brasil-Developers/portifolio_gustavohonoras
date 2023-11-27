@@ -1,0 +1,40 @@
+.TechSection{
+    gap: 28px;
+    padding: 70px 0px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.TechSectionControler{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.TechText{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    }
+
+.TechList{
+    gap: 10px;
+    width: 896px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.TechCard{
+    gap: 34px;
+    display: flex;
+    width: 287px;
+    height: 86px;
+    flex-shrink: 0;
+    border-radius: 25px;
+    border: 1px solid rgba(255, 255, 255, 0.50);
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+}

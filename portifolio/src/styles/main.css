@@ -1,0 +1,4 @@
+.Main{
+    width: 100%;
+    background: var(--background, linear-gradient(180deg, #0C0C0C 0%, rgba(12, 12, 12, 0.94) 100%));
+}
