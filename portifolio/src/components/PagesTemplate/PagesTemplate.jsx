@@ -1,4 +1,4 @@
-import { Header } from "../header/header"
+import { Header } from "../Header/header"
 import { Footer } from "../Footer/Footer"
 
 export const PagesTemplate = ({ children }) =>{
