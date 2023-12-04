@@ -1,12 +1,67 @@
-@import url(reset.css);
-
-
-
-.background{
-    width: 100%;
-    background: var(--background, linear-gradient(180deg, #0C0C0C 0%, rgba(12, 12, 12, 0.94) 100%));
+.BannerTitle{
+    color: var(--purple, #6880FF);
+    font-family: Poppins;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
+.ButtonSectionBanner{
+    width: 130px;
+    height: 39px;
+    flex-shrink: 0;
+    border-radius: 12px;
+    border: 1px solid #000;
+    background: var(--purple, #6880FF);
+    color: #FFF;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.ButtonSectionBanner:hover{
+    border-radius: 12px;
+    border: 1px solid #000;
+    background: #7C91FF;
+}
+
+.BannerSectionTexts{
+    width: 320px;
+    height: 277px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.BannerSection{
+
+    padding: 70px 0px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 124px;
+}
+
+.Text{
+    color: var(--white, #FFF);
+
+    /* Paragraph */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+    }
+
+.Title{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
 
 @media (max-width: 390px) {
     .Header {

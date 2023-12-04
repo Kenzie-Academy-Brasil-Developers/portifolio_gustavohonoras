@@ -38,3 +38,11 @@
     align-items: center;
     flex-direction: row-reverse;
 }
+.Title{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}

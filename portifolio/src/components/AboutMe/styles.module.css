@@ -1,12 +1,28 @@
-@import url(reset.css);
-
-
-
-.background{
-    width: 100%;
-    background: var(--background, linear-gradient(180deg, #0C0C0C 0%, rgba(12, 12, 12, 0.94) 100%));
+.Title{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 }
 
+.AboutMe{
+    padding: 70px 0px 0px;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.AboutMeText{
+    color: var(--white, #FFF);
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+    width: 560px;
+}
 
 @media (max-width: 390px) {
     .Header {

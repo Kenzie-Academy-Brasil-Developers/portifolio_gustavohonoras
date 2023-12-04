@@ -1,12 +1,54 @@
-@import url(reset.css);
-
-
-
-.background{
-    width: 100%;
-    background: var(--background, linear-gradient(180deg, #0C0C0C 0%, rgba(12, 12, 12, 0.94) 100%));
+.FooterController{
+    padding: 80px 0px 50px;
+    display: flex;
+    justify-content: center;
 }
 
+.Footer{
+    display: flex;
+    width: 896px;
+    height: 190px;
+    flex-shrink: 0;
+    border-top: 1px solid #FFF;
+    border-bottom: 1px solid #FFF;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.TextFooter{
+
+    color: #FFF;
+    text-align: right;
+    /* Paragraph */
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; /* 187.5% */
+    }
+
+.ImgsFooter{
+    display: flex;
+    gap:15px;
+    width: 86px;
+    height: 22px;
+    flex-shrink: 0;
+}
+
+.TitleImgFooter{
+    display: flex;
+    flex-direction: column;
+}
+
+.Title{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
 
 @media (max-width: 390px) {
     .Header {
